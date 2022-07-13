@@ -29,4 +29,6 @@ fetch("/products").then((response) => {
 
 /* ============== 4. Print the body of the response as text =============== */
 
-// Your code here
+fetch("/products").then((response) => {
+    console.log(response.text())
+})
