@@ -22,7 +22,7 @@ fetch("/products").then((response) => {
 /* =================== 3. Print the Content-Type Header =================== */
 
 fetch("/products").then((response) => {
-    console.log(response.headers.get(name))
+    console.log(response.headers.get("Content-Type"))
 })
 
 
